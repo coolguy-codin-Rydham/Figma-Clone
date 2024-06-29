@@ -1,11 +1,13 @@
-import { CollaborativeApp } from "./CollaborativeApp";
+"use client";
+import { useState } from "react";
 import { Room } from "./Room";
+import Live from "@/components/Live";
 
 const page = () => {
   return (
-  <Room>
-    <CollaborativeApp/>
-  </Room>
+    <div >
+      <Live/>
+    </div>
   );
 };
 
